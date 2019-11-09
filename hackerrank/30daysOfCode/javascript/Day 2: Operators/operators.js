@@ -1,8 +1,7 @@
 function solve(meal_cost, tip_percent, tax_percent) {
 
   let finalCost; 
-
-
+  
   /* 
   calculate final cost by adding meal cost with tip cost and tax cost adjusted according to 
   their respecitive precentages and meal cost

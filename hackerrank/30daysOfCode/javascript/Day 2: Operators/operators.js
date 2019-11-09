@@ -7,7 +7,7 @@ function solve(meal_cost, tip_percent, tax_percent) {
   calculate final cost by adding meal cost with tip cost and tax cost adjusted according to 
   their respecitive precentages and meal cost
   */
-  finalCost = Math.floor(meal_cost + (meal_cost * tip_percent/100) + (meal_cost * tax_percent/100));
+  finalCost = Math.round(meal_cost + (meal_cost * tip_percent/100) + (meal_cost * tax_percent/100));
 
   console.log(finalCost);
 }
